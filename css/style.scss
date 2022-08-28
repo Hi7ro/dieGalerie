@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+$goldText: rgb(215, 212, 28);
+$goldHov: rgb(255, 251, 7);
+$top: 70px;
+$side: 100px;
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/blackWhiteMID.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  nav {
+    position: relative;
+    width: 100vw;
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.237);
+    display: flex;
+    justify-content: center;
+    .nav-brand {
+      img {
+        position: absolute;
+
+        right: 50px;
+        height: 120px;
+      }
+    }
+    .nav-links {
+      display: flex;
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+      }
+    }
+    a {
+      text-decoration: none;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 2em;
+      color: $goldText;
+      transition: all 150ms ease-in-out;
+
+      &:hover {
+        transition: all 150ms ease-in-out;
+        color: $goldHov;
+        font-size: 2.3em;
+        text-shadow: 1px 1px 10px black;
+        border-bottom: 3px solid $goldHov;
+      }
+    }
+  }
+
+  .container {
+    .img-box {
+    }
+  }
+}
