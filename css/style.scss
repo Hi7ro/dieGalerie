@@ -61,7 +61,27 @@ header {
   }
 
   .container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .new-img {
+      display: flex;
+      justify-content: center;
+    }
+
     .img-box {
+      margin: 10px 20px;
+      position: relative;
+
+      h3 {
+        font-family: "Courier New", Courier, monospace;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.711);
+        bottom: 5px;
+        right: 10px;
+      }
     }
   }
 }

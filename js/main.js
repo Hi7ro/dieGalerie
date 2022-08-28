@@ -1,3 +1,5 @@
-$(docuemnt).ready(function () {
-  $(".owl-carousel").owlCarousel();
+$(document).ready(function () {
+  $('.owl-carousel').owlCarousel();
 });
+
+$('.img-box')

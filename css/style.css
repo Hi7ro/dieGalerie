@@ -49,4 +49,26 @@ header nav a:hover {
   font-size: 2.3em;
   text-shadow: 1px 1px 10px black;
   border-bottom: 3px solid rgb(255, 251, 7);
+}
+header .container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container .new-img {
+  display: flex;
+  justify-content: center;
+}
+header .container .img-box {
+  margin: 10px 20px;
+  position: relative;
+}
+header .container .img-box h3 {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.711);
+  bottom: 5px;
+  right: 10px;
 }/*# sourceMappingURL=style.css.map */
