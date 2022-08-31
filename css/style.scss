@@ -74,6 +74,15 @@ header {
     .img-box {
       margin: 10px 20px;
       position: relative;
+      box-shadow: 7px 7px 10px black;
+
+      img {
+        max-height: 500px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
 
       h3 {
         font-family: "Courier New", Courier, monospace;
