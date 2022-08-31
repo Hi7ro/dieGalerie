@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/css/owl.theme.default.min.css">
 </head>
 
-<body>
+<body onload="renderImages()">
   <header>
 
     <!--?  NAVIGATION   -->
@@ -32,31 +32,10 @@
 
     <!--?  CAROUSEL  -->
     <div class="container">
-      <div class="owl-carousel owl-theme new-img">
-        <div class="img-box" id="image-box">
-          <img src="/assets/img1.jpg">
-          <h3 id="paint-title">Bild Titel</h3>
-        </div>
-        <div class="img-box" id="image-box">
-          <img src="/assets/img2.jpg">
-          <h3 id="paint-title">Bild Titel</h3>
-        </div>
-        <div class="img-box" id="image-box">
-          <img src="/assets/img3.jpg">
-          <h3 id="paint-title">Bild Titel</h3>
-        </div>
-
-        <div class="img-box" id="image-box">
-          <img src="/assets/img4.jpg">
-          <h3 id="paint-title">Bild Titel</h3>
-        </div>
-
+      <div class="owl-carousel owl-theme new-img" id="image-box">
       </div>
 
-
-    </div>
-
-    <!--?X  CAROUSEL  X-->
+      <!--?X  CAROUSEL  X-->
 
   </header>
 
@@ -64,6 +43,7 @@
   <script src="/js/jquery3.6.1.min.js"></script>
   <script src="/js/owl.carousel.min.js"></script>
   <script src="/js/main.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 
 </html>

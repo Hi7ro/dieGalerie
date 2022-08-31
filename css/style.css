@@ -67,10 +67,7 @@ header .container .img-box {
   box-shadow: 7px 7px 10px black;
 }
 header .container .img-box img {
-  max-height: 500px;
-}
-header .container .img-box img:hover {
-  cursor: pointer;
+  max-height: 600px;
 }
 header .container .img-box h3 {
   font-family: "Courier New", Courier, monospace;
