@@ -27,6 +27,7 @@ header {
     justify-content: center;
     .nav-brand {
       img {
+        cursor: pointer;
         position: absolute;
         right: 50px;
         height: 120px;
@@ -77,6 +78,9 @@ header {
 
       img {
         max-height: 600px;
+        &:hover {
+          animation: scaleAnimation;
+        }
       }
 
       h3 {
@@ -87,5 +91,15 @@ header {
         right: 10px;
       }
     }
+  }
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.3);
   }
 }

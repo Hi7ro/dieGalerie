@@ -22,6 +22,7 @@ header nav {
   justify-content: center;
 }
 header nav .nav-brand img {
+  cursor: pointer;
   position: absolute;
   right: 50px;
   height: 120px;
@@ -69,10 +70,32 @@ header .container .img-box {
 header .container .img-box img {
   max-height: 600px;
 }
+header .container .img-box img:hover {
+  -webkit-animation: scaleAnimation;
+          animation: scaleAnimation;
+}
 header .container .img-box h3 {
   font-family: "Courier New", Courier, monospace;
   position: absolute;
   color: rgba(255, 255, 255, 0.711);
   bottom: 5px;
   right: 10px;
+}
+
+@-webkit-keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
 }/*# sourceMappingURL=style.css.map */
